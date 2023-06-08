@@ -126,6 +126,14 @@ body {
   border: 2px solid #ffffff;
   border-radius: 10px;
 }
+.block__item:nth-child(2) {
+  backdrop-filter: blur(2px);
+  width: 600px;
+  height: 600px;
+  margin: 30px auto;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
 .item-title {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -192,17 +200,9 @@ body {
   transition: 1s;
   height: 170px;
 }
-.menu__1-phase {
-  width: 170px;
-  transition: 0.8s;
-}
 
-.menu__2-phase {
-  width: 150px;
-  transition: 0.8s;
-}
-.menu__3-phase {
-  width: 170px;
+.menu__phase {
+  width: 140px;
   transition: 0.8s;
 }
 
@@ -213,8 +213,14 @@ body {
   margin-left: 20px;
   font-weight: 100;
   transition: 1s;
+  background-color: #201f1f;
+  border: 1px solid #535353;
+  width: 140px;
+  margin: 0 0 0 0;
+  opacity: 0;
 }
 
-.menu__text:hover .menu__1-phase {
-  width: 400px;
+.menu:hover .menu__text {
+  opacity: 100%;
+  margin: 0 0 0 20px;
 }
