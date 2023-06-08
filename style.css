@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: deepskyblue;
+  margin: 250px auto;
+  border: 1px solid #000;
+  text-align: center;
+  padding-top: 75px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.box:hover {
+  background-color: #ff00c8;
+}
+
+h1 {
+  opacity: 0;
+  transition: 1s;
+}
+
+.box:hover h1 {
+  opacity: 100%;
+}
+
+.box:active {
+  width: 150px;
+  height: 150px;
+}
+
+.box:active h1 {
+  font-size: 25px;
+}
+
+input {
+  width: 150px;
+  height: 75px;
+  transition: 0.8s;
+}
+input:focus {
+  background-color: yellow;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.section {
+  width: 500px;
+  height: 300px;
+  background-color: teal;
+  margin: 0 auto;
+  border: 2px solid #00000085;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  padding: 20px;
+  transition: 0.8s;
+}
+.section__text {
+  transition: 0.8s;
+}
+.section__box {
+  width: 400px;
+  border: 1px solid #000;
+  padding: 20px;
+  transition: 0.8s;
+}
+.section__img {
+  transition: 0.8s;
+}
+
+.section:hover .section__text {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.section__box:hover .section__img {
+  width: 200px;
+}
+
+.list {
+  width: 100px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+.list__item:nth-child(3) {
+  background-color: rebeccapurple;
+}
+
+.list__item:nth-child(1) {
+  background-color: rgb(128, 0, 255);
+  color: aliceblue;
+}
+.list__item:nth-child(2):hover {
+  background-color: #ff00c8;
+}
+
+.list:hover .list__item:nth-child(4) {
+  background-color: blueviolet;
+} */
+
+body {
+  background-size: cover;
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614838999_60-p-fon-dlya-fotoshopa-zvyozdnoe-nebo-89.jpg);
+}
+
+.block {
+  width: 700px;
+  height: 1300px;
+  margin: 0 auto;
+}
+.block__item {
+  background-color: #201f1f96;
+  width: 600px;
+  height: 600px;
+  margin: 30px auto;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.item-title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 100;
+  transition: 1s;
+}
+.item__box {
+  height: 510px;
+}
+
+.block:hover .item-title {
+  margin-left: 250px;
+  letter-spacing: 5px;
+}
+
+.item__box:hover .moon {
+  width: 500px;
+  padding-left: 100px;
+}
+
+.item__box:hover .moon-txt {
+  opacity: 0;
+}
+.item__box:hover .box__link {
+  opacity: 100%;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.moon {
+  width: 200px;
+  transition: 1s;
+}
+.moon-txt {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.box__link {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  transition: 1s;
+  opacity: 0;
+}
+
+.item-title__moon {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 100;
+  transition: 1s;
+}
+.item__ul {
+  transition: 1s;
+}
+.menu {
+  transition: 1s;
+  height: 170px;
+}
+.menu__1-phase {
+  width: 170px;
+  transition: 0.8s;
+}
+
+.menu__2-phase {
+  width: 150px;
+  transition: 0.8s;
+}
+.menu__3-phase {
+  width: 170px;
+  transition: 0.8s;
+}
+
+.menu__text {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-left: 20px;
+  font-weight: 100;
+  transition: 1s;
+}
+
+.menu__text:hover .menu__1-phase {
+  width: 400px;
+}
